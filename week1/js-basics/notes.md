@@ -61,20 +61,20 @@ Comments are amazing! Write tons of them!
 > In JS, a `Number` can be represented as an `integer` or a `float`.
 
 - **Literals** - Single most straight forward way to represent a number.
-    ```javascript
-        2 // deuce
-        3.14159265359 // mmm, pi...
-        1e6 // 1,000,000
-    ```
+```javascript
+    2 // deuce
+    3.14159265359 // mmm, pi...
+    1e6 // 1,000,000
+```
 - **PEMDAS** (order of operations), determines the order that math happens in
 - **Operators**
-    ```javascript
-        + // addition
-        - // subtraction
-        * // multiplication, generators (advanced topic)
-        / // division
-        % // modulus
-    ```
+```javascript
+    + // addition
+    - // subtraction
+    * // multiplication, generators (advanced topic)
+    / // division
+    % // modulus
+```
 
 ### Strings
 > In JS, a `String` is a series of characters and can be empty (0 characters) up to potentially unlimited (though constrained by hardware).
