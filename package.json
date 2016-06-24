@@ -1,0 +1,19 @@
+{
+  "name": "june-2016-demo-code",
+  "version": "1.0.0",
+  "description": "Lecture notes and demonstration code for the RefactorU June 2016 Cohort",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RefactorU/June2016DemoCode.git"
+  },
+  "author": "refactoru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RefactorU/June2016DemoCode/issues"
+  },
+  "homepage": "https://github.com/RefactorU/June2016DemoCode#readme"
+}
