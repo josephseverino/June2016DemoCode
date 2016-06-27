@@ -18,8 +18,11 @@ body{
 /* Descendent selector - it will select all elements with the class of navitem that are DESCENDENTS of #navbar  - ANY number of levels deep*/
 #navbar .navitem, #navbar a{
     background-color:black;
+    color:4;
 }
-
+a{
+    background-color:green;
+}
 /* Multi-class selector */
 #navbar .navitem.activeitem{
     background-color:red;
