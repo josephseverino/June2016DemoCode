@@ -1,0 +1,36 @@
+/* Selecting an element by its tag name */
+body{
+    background-color : peachpuff;
+}
+
+/* Selecting an element by class */
+.awesome-text{
+    color : rebeccapurple;
+}
+
+/* Selecting an element by id */
+#raphael{
+    color : burlywood;
+}
+
+/* Location based selectors */
+
+/* Descendent selector - it will select all elements with the class of navitem that are DESCENDENTS of #navbar  - ANY number of levels deep*/
+#navbar .navitem, #navbar a{
+    background-color:black;
+}
+
+/* Multi-class selector */
+#navbar .navitem.activeitem{
+    background-color:red;
+}
+
+/* Child selector - it will select all elements with the class of navitem that are DIRECT children of #navbar - ONE level deep*/
+/*#navbar > ul{*/
+/*    background-color:black;*/
+/*}*/
+
+/* NEVER DO ONE LIKE THIS */
+#navbar > ul li a:last-child > span.text:nth-child(2):hover{
+    
+}
