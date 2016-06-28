@@ -1,0 +1,52 @@
+body{
+    margin-top:60px;
+}
+/*
+p {
+    height:200px;  giving dimension to block level element 
+}
+*/
+/*span{*/
+/*    display:block;*/
+/*}*/
+.span-tainer{
+    height:400px;
+    background-color:papayawhip;
+}
+
+.div-box{
+    background-color:#3EBBF2;
+    height:80px;
+    width:80px;
+    display : inline-block;
+    border : thin solid black;
+}
+.rel-box{
+    position:relative;
+    top : 20px;
+}
+nav{
+    background-color:rgba(0,0,0,0.2);
+}
+
+.box-container{
+    height:500px;
+    background-color:green;
+    padding-top:120px;
+}
+.mini-box-container{
+    
+    height:300px;
+    background-color:red;
+}
+.ghost-box{
+    position:absolute;
+}
+
+/*Floats*/
+.pull-left{
+    float : left;
+}
+.article-text{
+    overflow:hidden;
+}

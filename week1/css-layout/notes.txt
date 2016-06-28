@@ -1,0 +1,82 @@
+Document Flow
+    - How the browser formats or lays HTML elements out on a page
+    - Top  - Down
+    - Left - Right
+    
+Display - affects how an element carries dimensions and whether or not it can share line space
+
+    Block - 
+        - Has a line break before and after itself
+            - It will NOT share space on a line
+        - By default, they will take up 100% width
+        - div, p, h1-6, section
+        - Have dimensions
+    
+    Inline -
+        - Share space on a line
+        - span, strong, em
+        - Do NOT have dimensions
+            - They get their dimensions from the CONTENT inside of them
+    
+    Inline-Block - 
+        - Most flexible display type - best of both worlds
+        - img(not technically inline-block but behaves EXACTLY like it would if it was)
+        - Share space on a line
+        - Have dimensions
+    
+    None - 
+        - The element is no longer rendered
+        - No longer takes up space or affects other elements' layout
+            - Removed from the DOCUMENT FLOW
+            
+Position - Affects the physical location or visual representation of an element
+         - Putting elements in places where they wouldn't normally go if the browser had any say in it
+         - Often paired with COORDINATE properties - top, left, bottom, right
+    
+    Static - 
+        - Every element is statically positioned by default
+        - Where the browser wants to lay the element out
+        - Elements are considered "unpositioned"
+    
+    Fixed - 
+        - Positioned with respect to the WINDOW (viewable area in the browser)
+        - Stay on the screen when the page is scrolled
+        - floating nav bar that's always available
+        - Removing the element from the DOCUMENT FLOW
+
+    Relative -
+        - Positioned with respect to itself
+        - DOES NOT remove the element from the DOCUMENT FLOW
+        - Doesn't change WHERE the element takes us space
+            - Only changes the visual representation
+    
+    Absolute - 
+        - Positioned with respect to its closest positioned ancestor or the BODY
+        - REMOVE the element from DOCUMENT FLOW
+            - Does NOT take up space
+
+Floats
+    Originally they were designed to help text / images wrap around one another, like a newspaper article
+    
+    A Floated element is MOSTLY removed from the document flow
+        It only affects the positioning of content that is wrapping around it
+    
+    Float
+        - left
+        - right
+        - none
+    
+    Clear
+        - Property designed to control how elements can share space with a float
+        - Chooses a side and will NOT share space with a floated element on that side
+        - left
+        - right
+        - both
+        - none
+    
+    Overflow
+        - Typically deals with content inside of elements
+        - Used to show or hide overflowing content
+            - letting it expand outside of the container
+            - constraining it with scroll bars
+            - hiding the content that expands outside alltogether
