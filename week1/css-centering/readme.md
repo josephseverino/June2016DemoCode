@@ -9,7 +9,7 @@ The purpose of this lecture is to teach students how to center elements, block l
 horizontal
 -------
 - block elements (width required)
-    - `margin: 0 auto; width: 400px;`
+    - `margin: auto; width: 400px;`
 - inline elements (on parent)
     - `text-align: center;`
 
