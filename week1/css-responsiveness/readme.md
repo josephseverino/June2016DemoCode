@@ -6,8 +6,11 @@
 
 Students should learn how to use relative CSS units, such as `%`, `em`, `rem`, `vw`, and `vh`.
 
-## Lecture Notes
+References
+- [http://lmgtfy.com?q=css+units](CSS Units)
+- [http://lmgtfy.com?q=media+queries](Media Queries)
 
+## Lecture Notes
 
 ### Why?
 - Wide range of devices, capabilities, and sizes
@@ -44,16 +47,16 @@ Students should learn how to use relative CSS units, such as `%`, `em`, `rem`, `
 - Media Queries (min-width) that increase in size
 
 ```css
-    .papadiv{
+    body {
         background-color:red;
     }
     @media (min-width:768px){
-        .papadiv{
+        body {
             background-color:blue;
         }
     }
     @media (min-width:1024px){
-        .papadiv{
+        body {
             background-color:blue;
         }
     }

@@ -1,0 +1,27 @@
++ We care about responsiveness because devices
+
++ Portrait vs landscape
+- portrait
+-- scrolling
+
+- landscape
+-- wrapping / unwrapping
+
++ aspect Ratio
+- pixel density (the are of screen) (pixels across times pixels vertically)
+- 16:9 - 1600x900, 1920x1080
+- 4:3 - 1600x1200
+- Mobile Resolution 960x480
+
++ Outdated practice!
+- http://mysite.com
+- http://m.mysite.com
+
++ Dev tools workspaces
+- Three bar icon > Settings > Workspaces
+- Add your folder
+- Sources tab > Right click CSS file > Map to Local Resource...
+
+CSS Units
+- em : the font size relative a parent element
+- rem : the font size relative to the HTML element
