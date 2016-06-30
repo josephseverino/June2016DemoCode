@@ -11,7 +11,7 @@ body {
 header {
     width: 100%;
     height: 100px;
-    background-color: #E0B0FF /* oh yeaah, mauve */;
+    background-color: #efefef /* oh yeaah, mauve */;
     padding-top: 20px;
 }
 #content {
@@ -19,14 +19,17 @@ header {
     max-width: 720px;
     /*height: 200px;*/
     min-height: 200px;
-    background: white;
+    background: #efefef;
     color: #08c;
 }
 .navlink {
     list-style: none;
     display: inline-block;
-    background-color: #333;
+    background-color: #BBB;
     /* padding: 22px; */
+    padding:10px;
+   
+   
 }
 
 #thisOne {
@@ -65,4 +68,12 @@ footer {
     h1 {
         font-size: 100px;
     }
+}
+nav {
+    text-align: center;
+   
+}
+a {
+   text-decoration:none;
+   color:white;
 }
