@@ -9,6 +9,7 @@ Students should learn how to use relative CSS units, such as `%`, `em`, `rem`, `
 References
 - [http://lmgtfy.com?q=css+units](CSS Units)
 - [http://lmgtfy.com?q=media+queries](Media Queries)
+- [http://www.responsinator.com/]()
 
 ## Lecture Notes
 

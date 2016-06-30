@@ -46,6 +46,67 @@ Comments are amazing! Write tons of them!
     - `0`
     - `awesome-things-and-stuff`
 
+### Reserved keywords
+
+[https://mathiasbynens.be/notes/reserved-keywords](Reference: Reserved Keywords by JS Versions)
+
+#### ES5 Keywords (In the context of the Browser)
+- `arguments`
+- `break`
+- `case`
+- `catch`
+- `class`*
+- `const`*
+- `continue`
+- `debugger`
+- `default`
+- `delete`
+- `do`
+- `else`
+- `enum`
+- `eval`
+- `export`
+- `extends`
+- `false`
+- `finally`
+- `for`
+- `function`
+- `if`
+- `implements`*
+- `import`***
+- `in`
+- `Infinity`
+- `instanceof`
+- `interface`*
+- `let`**
+- `NaN`
+- `new`
+- `null`
+- `package`*
+- `private`*
+- `protected`*
+- `public`
+- `return`
+- `static`*
+- `super`*
+- `switch`
+- `this`
+- `throw`
+- `true`
+- `try`
+- `typeof`
+- `undefined`
+- `var`
+- `void`
+- `while`
+- `with`
+- `yield`**
+
+`*` Reserved, but not implemented in ES5
+`**` Available for use when strict mode is ON
+`***` Can be **transpiled** into ES5
+
+
 ### Primitive Types
 > These are the different basic types of values that exist in JavaScript. Think of these as types of building blocks.
 
