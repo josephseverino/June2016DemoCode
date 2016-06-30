@@ -65,8 +65,8 @@ Comments are amazing! Write tons of them!
 - `else`
 - `enum`
 - `eval`
-- `export`
-- `extends`
+- `export`***
+- `extends`*
 - `false`
 - `finally`
 - `for`
@@ -85,7 +85,7 @@ Comments are amazing! Write tons of them!
 - `package`*
 - `private`*
 - `protected`*
-- `public`
+- `public`*
 - `return`
 - `static`*
 - `super`*
@@ -105,7 +105,6 @@ Comments are amazing! Write tons of them!
 `*` Reserved, but not implemented in ES5
 `**` Available for use when strict mode is ON
 `***` Can be **transpiled** into ES5
-
 
 ### Primitive Types
 > These are the different basic types of values that exist in JavaScript. Think of these as types of building blocks.
